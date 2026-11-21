@@ -1,0 +1,16 @@
+# Central configuration. Fill in as measurements are taken.
+camera:
+  calibration_file: calibration/camera_calibration.yaml
+  frame_id: camera_optical_frame
+
+aruco:
+  dictionary: DICT_4X4_50
+  marker_size_m: null        # MEASURE the printed tag exactly (metres)
+
+objects:
+  # name: {tag_id or class, real-world size in metres}
+  object_1: {type: aruco, tag_id: 0}
+  object_2: {type: aruco, tag_id: 1}
+  object_3: {type: vision, class: null, width_m: null}
+  object_4: {type: vision, class: null, width_m: null}
+  object_5: {type: vision, class: null, width_m: null}
