@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ROS build artefacts (if built in-repo)
+build/
+install/
+log/
+
+# Large / generated files (share via Releases or Drive instead)
+models/*.keras
+models/*.tflite
+models/*.pt
+models/*.onnx
+data/raw/
+data/*.zip
+*.bag
+*.mcap
+
+# Raw calibration photos (keep the resulting calibration file, not the photos)
+calibration/images/*
+!calibration/images/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

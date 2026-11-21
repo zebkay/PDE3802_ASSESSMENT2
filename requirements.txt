@@ -1,0 +1,4 @@
+# Filled in as we go. Pin versions once the Pi environment is working.
+numpy
+opencv-contrib-python<5   # contrib build is needed for cv2.aruco
+pyyaml
